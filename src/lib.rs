@@ -19,7 +19,7 @@ use crate::{
     wltransys::certify::{WlProof, WlWitness},
 };
 use config::Config;
-
+pub use gipsat::DagCnfSolver;
 pub trait Engine {
     fn check(&mut self) -> Option<bool>;
 
