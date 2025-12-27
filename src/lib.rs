@@ -4,7 +4,7 @@
 pub mod bmc;
 pub mod config;
 pub mod frontend;
-mod gipsat;
+pub mod gipsat;
 pub mod ic3;
 pub mod kind;
 pub mod portfolio;
