@@ -16,7 +16,7 @@ use std::time::Instant;
 use utils::Statistic;
 
 mod activity;
-mod aux;
+mod auxiliary;
 mod block;
 mod frame;
 mod localabs;

@@ -1,4 +1,4 @@
-mod aux;
+mod auxiliary;
 pub mod certify;
 mod ctx;
 pub mod frts;
