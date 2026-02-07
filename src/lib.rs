@@ -4,7 +4,7 @@
 pub mod bmc;
 pub mod config;
 pub mod frontend;
-mod gipsat;
+pub mod gipsat;
 pub mod ic3;
 pub mod kind;
 pub mod portfolio;
@@ -19,7 +19,7 @@ use crate::{
     wltransys::certify::{WlProof, WlWitness},
 };
 use config::Config;
-
+pub use gipsat::DagCnfSolver;
 pub trait Engine {
     fn check(&mut self) -> Option<bool>;
 
